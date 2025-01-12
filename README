@@ -1,0 +1,23 @@
+# CBZ Image Extractor
+
+## Description
+This script processes a folder containing .cbz files, extracts the images, and renames them sequentially. It renames the .cbz files to .zip to extract the images and then renames them back to .cbz. The extracted images are renamed to "Page .jpg" and saved in the output folder.
+
+## Usage
+1. Ensure you have Python installed on your system.
+2. Place the script in a directory of your choice.
+3. Open a terminal or command prompt and navigate to the directory containing the script.
+4. Run the script using the following command:
+```
+python cbz_combine.py
+```
+5. Follow the on-screen instructions to provide the input and output folder paths.
+
+## Notes
+- This script is designed to work with .cbz files, which are essentially .zip files containing images. If you have .cbr files (rar format), you can convert them to .cbz using a tool like [Calibre](https://calibre-ebook.com/).
+- The extracted images will be saved in the output folder with the naming convention "Page [num].jpg". You can modify the script to change the naming convention if needed.
+- The script will overwrite any existing files with the same name in the output folder. Make sure to back up any important files before running the script.
+
+## Disclaimer
+This script is provided as-is without any guarantees or warranties. Use it at your own risk and always back up your files before running any scripts that modify them.
+
